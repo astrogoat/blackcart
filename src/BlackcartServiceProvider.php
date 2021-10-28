@@ -11,14 +11,12 @@ use Astrogoat\Blackcart\Settings\BlackcartSettings;
 
 class BlackcartServiceProvider extends PackageServiceProvider
 {
-    public function registerApp(LegoManager $lego)
+    public function registerApp(App $app)
     {
-        $lego->registerApp(function (App $app) {
-            return $app
-                ->name('blackcart')
-                ->settings(BlackcartSettings::class);
-        })
-            ->addMigrations([
+        return $app
+            ->name('blackcart')
+            ->settings(BlackcartSettings::class)
+            ->migrations([
                 __DIR__ . '/../database/migrations/settings',
             ]);
     }
@@ -26,7 +24,7 @@ class BlackcartServiceProvider extends PackageServiceProvider
     public function registeringPackage()
     {
         $this->callAfterResolving('lego', function (LegoManager $lego) {
-            $this->registerApp($lego);
+            $lego->registerApp(fn (App $app) => $this->registerApp($app));
         });
     }
 
