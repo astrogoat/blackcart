@@ -2,12 +2,11 @@
 
 namespace Astrogoat\Blackcart;
 
+use Astrogoat\Blackcart\Settings\BlackcartSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\LegoManager;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Astrogoat\Blackcart\Commands\BlackcartCommand;
-use Astrogoat\Blackcart\Settings\BlackcartSettings;
 
 class BlackcartServiceProvider extends PackageServiceProvider
 {

@@ -2,9 +2,9 @@
 
 namespace Astrogoat\Blackcart\Tests;
 
+use Astrogoat\Blackcart\BlackcartServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\Blackcart\BlackcartServiceProvider;
 
 class TestCase extends Orchestra
 {
