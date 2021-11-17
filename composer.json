@@ -1,6 +1,6 @@
 {
     "name": "astrogoat/blackcart",
-    "description": "A Blackcart app for Stratum",
+    "description": "A Blackcart app for Strata",
     "keywords": [
         "astrogoat",
         "laravel",
@@ -24,7 +24,7 @@
     "require": {
         "php": "^8.0",
         "astrogoat/shopify": "dev-main",
-        "astrogoat/stratum": "dev-develop",
+        "astrogoat/strata": "dev-develop",
         "illuminate/contracts": "^8.37",
         "spatie/laravel-package-tools": "^1.4.3"
     },
