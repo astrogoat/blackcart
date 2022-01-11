@@ -23,8 +23,8 @@
     ],
     "require": {
         "php": "^8.0",
-        "astrogoat/shopify": "dev-main",
-        "astrogoat/strata": "dev-develop",
+        "astrogoat/shopify": "^1.0",
+        "astrogoat/strata": "^0.1.0",
         "illuminate/contracts": "^8.37",
         "spatie/laravel-package-tools": "^1.4.3"
     },
