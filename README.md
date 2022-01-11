@@ -1,4 +1,4 @@
-# A Blackcart app for Stratum
+# A Blackcart app for Strata
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/astrogoat/blackcart.svg?style=flat-square)](https://packagist.org/packages/astrogoat/blackcart)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/astrogoat/blackcart/run-tests?label=tests)](https://github.com/astrogoat/blackcart/actions?query=workflow%3Arun-tests+branch%3Amain)
