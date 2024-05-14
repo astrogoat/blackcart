@@ -61,7 +61,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Kristoffer Tonning](https://github.com/tonning)
+- [Laura Tonning](https://github.com/tonning)
 - [All Contributors](../../contributors)
 
 This blackcart package is forked from the awesome [Spatie blackcart package](https://github.com/spatie/package-blackcart-laravel#support-us). Please go support them if you can.
